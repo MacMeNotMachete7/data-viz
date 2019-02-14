@@ -1,0 +1,27 @@
+This is a fun visualization that uses Chernoff faces to identify groupings among the components of harm and dependence. Broadly speaking, face shape corresponds with social harm components, hair corresponds with physical harm components, and face details correspond with dependence components.
+
+The table below gives the full mapping:
+
+|**Face feature**|**Harm category**|**Component**|
+|:-|:-|:-|
+|Height of face|Social|Mean harm|
+|Width of face|Social|Health care costs|
+|Shape of face|Social|Intoxication|
+|Height of mouth|Dependence|Pleasure|
+|Width of mouth|Dependence|Pleasure|
+|Curve of smile|Dependence|Pleasure|
+|Height of eyes|Dependence|Psychological|
+|Width of eyes|Dependence|Psychological|
+|Height of hair|Physical|Acute harm|
+|Width of hair|Physical|Chronic harm|
+|Styling of hair|Physical|Intravenous harm|
+|Height of nose|Dependence|Physical|
+|Width of nose|Dependence|Physical|
+|Width of ears|Dependence|Physical|
+|Height of ears|Dependence|Physical|
+|Color of iris|Dependence|Psychological|
+|Color of lips|Social|all three components|
+|Color of ears|Dependence|Physical|
+|Color of nose|Dependence|Physical|
+|Color of hair|Physical|all three components|
+|Color of face|Social|Mean harm, Health care costs|
