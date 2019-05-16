@@ -1,0 +1,36 @@
+\documentclass[preview]{standalone}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{caption}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\begin{document}
+\begin{table*}\centering
+\caption*{Deaths by Transportation Type}
+\ra{1.3}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+
+\multirow{3}[3]{*}{Type} &\multicolumn{3}{c}{Deaths per billion} \\
+\cmidrule(lr){2-4} &Journeys &Hours & km \\
+
+\midrule
+Bus & 4.3 & 11.1 & 0.4 \\
+Rail & 20 & 30 & 0.6 \\
+Van & 20 & 60 & 1.2 \\
+Car & 40 & 130 & 3.1 \\
+Foot & 40 & 220 & 54.2 \\
+Water & 90 & 50 & 2.6 \\
+Air & 117 & 30.8 & 0.05 \\
+Pedal cycle & 170 & 550 & 44.6 \\
+Paragliding &  & 970 &  \\
+Skydiving & 7500 & 75000 &  \\
+Motorcycle & 1640 & 4840 & 108.9 \\
+Space Shuttle & 17000000 & 70000 & 6.6 \\
+
+\bottomrule
+\end{tabular}
+\end{table*}
+\end{document}
+
+% convert -density 300 -quality 90 table.pdf table.png
